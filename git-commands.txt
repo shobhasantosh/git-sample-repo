@@ -1,0 +1,35 @@
+git status ->prints the status of git repository.
+git init -> initilizes the git repository.
+git config - global user.name "lets Kode it"
+git config - global user.email shobhas.gnr@gmai.com
+git add
+git commit -n ""
+git log
+git diff <filename/>
+
+
+
+
+git clone <https://name-of-the-repository-link>
+
+git branch <branch-name>
+
+git checkout <name-of-your-branch>
+
+git status
+
+git add <file>	
+
+git commit -m "commit message"
+
+git push <remote> <branch-name>
+
+git pull <remote>	
+
+git revert 3321844
+
+git merge:
+git checkout dev
+git fetch
+
+git merge <branch-name>
