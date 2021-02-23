@@ -33,6 +33,18 @@ To merge the code from privatebranch1 to master branch
 3.git merge privatebranch1 	-> merge the code from local privatebranch1 to local master repo
 4. git push origin master	 -> push the code from local master repo to remote master repo
 
+----------------------------------------
+
+privatebranch1 (pull)---
+|                      |
+|                      |(push)
+--master----------------------master-------------------------master
+|						|(pull first and then push the code)
+|						|
+------------------------------------------------
+privatebranch2(pull)
+
+
 -------------------------------------------
 First Realease -> Done
 Second release: 2 features
