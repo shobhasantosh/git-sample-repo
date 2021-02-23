@@ -8,27 +8,3 @@ git commit -n ""
 git log
 git diff <filename/>
 
-
-
-
-git clone <https://name-of-the-repository-link>
-
-git branch <branch-name>
-
-git checkout <name-of-your-branch>
-
-git add <file>	
-
-git commit -m "commit message"
-
-git push <remote> <branch-name>
-
-git pull <remote>	
-
-git revert 3321844
-
-git merge:
-git checkout dev
-git fetch
-
-git merge <branch-name>
