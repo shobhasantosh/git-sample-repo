@@ -1,13 +1,29 @@
-git status ->prints the status of git repository.
-git init -> initilizes the git repository.
+-------------------git-commands---------------------
 
-git config - global user.name "lets Kode it"
-git config - global user.email shobhas.gnr@gmai.com
-git add
-git commit -n ""
-git log
-git diff <filename/>
+git status		 			-> prints the status of git repository.
+git init		 			-> initilizes the git repository.
+git config --global user.name "shobhasantosh" 	-> specify the username globaly
+git config --global user.email shobhas.gnr@gmai.com
+git config  user.name "shobhasantosh"   	-> specify username for particulr repository
+git config  user.email shobhas.gnr@gmai.com
+git add						-> Add the file to staging environment
+git commit -n "comments"			-> commit the file to local git repository
+git log						-> check file log history
+git diff <filename>				-> checkk the changes done to the file with existing file
+git remote add origin <github repo URL>		->Establish connection to remote github Repository
+git push -u origin master			-> push to master branch.
+git clone <github repo URL>			-> creat a copy of remote github Repository
+git pull					-> pull the file from remote github to local git repository.
 
+-------------------------------------------
+First Realease -> Done
+Second release: 2 features
+2 features
+2 people
+Third release:
+1 feature
+2 persons
 
-
-
+Scenario2:
+Person A-> Enhance the fraework
+Person B-> Automating test casess

@@ -8,9 +8,6 @@ git commit -n ""
 git log
 git diff <filename/>
 
-
-
-
 git clone <https://name-of-the-repository-link>
 
 git branch <branch-name>
