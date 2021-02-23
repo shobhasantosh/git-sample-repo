@@ -8,6 +8,15 @@ git commit -n ""
 git log
 git diff <filename/>
 
+git checkout -b privatebranch1  -> switch to privatebranch1
+	add the changes to files
+git add *
+git commit -m "added steps of branch creation"
+git push origin privatebranch1 --> code added to local repo of privatebranch1, privatebranch1 got created in github and code updated on github\remote repo of privatebranch1
 
+To merge the code from privatebranch1 to master branch
 
-
+1.git checkout master 		-> switch to master branch
+2. git pull origin master 	->pull the code from remote master repo to local master repo
+3.git merge privatebranch1 	-> merge the code from local privatebranch1 to local master repo
+4. git push origin master	 -> push the code from local master repo to remote master repo
